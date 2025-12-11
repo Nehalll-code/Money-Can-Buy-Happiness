@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://dummyimage.com/1200x300/00b894/ffffff&text=Money+Can+Buy+Happiness+(Apparently)" alt="Funny Banner">
+</p>
+
+
 🎉 README.md — Money Can Buy Happiness 💸🙂
 
 (A highly scientific investigation into whether your sadness is just a financial problem.)
