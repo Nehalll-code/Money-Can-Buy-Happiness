@@ -1,111 +1,102 @@
 <p align="center">
-  <img src="https://dummyimage.com/1200x300/00b894/ffffff&text=Money+Can+Buy+Happiness+(Apparently)" alt="Funny Banner">
+  <img src="https://dummyimage.com/1400x350/6c5ce7/ffffff&text=📊+Money+Can+Buy+Happiness+(Data+Says+So)+💸" alt="Project Banner">
 </p>
 
+# 🌍 **Money Can Buy Happiness**
+### *A data-driven exploration of the relationship between income and life satisfaction*
 
-🎉 README.md — Money Can Buy Happiness 💸🙂
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Linear%20Regression-Completed-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Happiness%20Explained-~60%25-green?style=for-the-badge" />
+</p>
 
-(A highly scientific investigation into whether your sadness is just a financial problem.)
+---
 
-💸 Money Can Buy Happiness
-…and I have the regression plot to prove it (kinda).
+# 📌 **Overview**
 
-Welcome to the most emotionally unstable machine-learning project you’ll find today.
+Does money buy happiness?  
+This project uses real-world data from **Our World In Data** to examine whether countries with higher GDP per capita tend to report higher levels of happiness.
 
-In this repo, we explore the age-old question:
+Using linear regression (and a surprisingly decent R²), we explore:
 
-“Can money buy happiness?”
+- How strongly income correlates with life satisfaction  
+- Whether log-income better explains the relationship  
+- What the data says… and what it doesn’t  
 
-And according to my linear regression?
-Sort of. Like… 60%.
-Which is honestly higher than expected for both money and linear regression.
+**Conclusion:**  
+Money doesn’t guarantee happiness — but statistically, it helps.
 
-🚀 Project Overview
+---
 
-This project uses the GDP vs Happiness dataset from Our World In Data to analyze whether richer countries are, statistically speaking, happier.
+# 🚀 **Features**
 
-We:
+- Cleaned and preprocessed GDP–Happiness dataset  
+- Linear & log-linear regression models  
+- Visualizations (scatter plot + regression line)  
+- R² evaluation and interpretation  
+- Lightweight, reproducible Python workflow  
 
-Cleaned the dataset (lightly, because data hygiene is a myth)
+---
 
-Ran a linear regression
+# 📁 **Data Source**
 
-Discovered R² ≈ 0.6 (yay?)
+The dataset used in this project is from **Our World In Data**, specifically the *GDP vs Happiness* data.
 
-Concluded that money solves most things, but not everything — sadly.
+- 🌍 Source: https://ourworldindata.org/grapher/gdp-vs-happiness  
+- 📄 License: CC-BY (free to use with attribution)  
+- 📝 Variables included:
+  - Happiness score (0–10 scale)  
+  - GDP per capita (PPP, constant international $)  
+  - Country metadata (region, code, year)  
 
-📊 Technologies Used
+A cleaned version of the dataset is placed in `./data/` for reproducibility.
 
-Python 🐍
+---
 
-Pandas (the emotional support library)
+# 🧠 **Key Insights**
 
-Scikit-Learn (for pretending everything is linear)
+- Countries with higher GDP per capita **tend to be happier**  
+- Simple linear regression gives **R² ≈ 0.6**  
+- Log-transforming GDP improves realism  
+- Happiness depends on many factors beyond income  
 
-Matplotlib (for pretty lies)
+---
 
-🧠 Key Findings
-Question	Answer
-Does money buy happiness?	Mostly. About 60%.
-Does GDP explain everything?	No. Your childhood trauma still matters.
-Should you become rich?	Always.
-🔧 How to Run
+# 🔧 **Installation**
 
-Clone the repo:
+Clone the repository:
 
+bash
 git clone https://github.com/<your-username>/money-can-buy-happiness.git
+cd money-can-buy-happiness
+Run the script:
 
+bash
+Copy code
+python script.py
+📊 Outputs
+📈 Scatter plot of GDP vs Happiness
 
-Install dependencies:
+➖ Regression line overlay
 
-pip install -r requirements.txt
+📉 R² score printed in console
 
+🤖 A statistically informed answer to: “Can money buy happiness?”
 
-Run the notebook / script:
+📝 Example Interpretation
+“Our model suggests that GDP explains roughly 60% of cross-country variation in reported happiness. While income is a significant predictor, other social and cultural factors play meaningful roles.”
 
-python happiness_regression.py
+TL;DR:
 
+✔ Yes, money makes people happier
 
-Alternatively:
+✖ No, it doesn’t fix everything
 
-🧘 Just open the Jupyter Notebook and pretend to understand statistics.
-
-🗂️ Repository Structure
-📁 money-can-buy-happiness
-│── 📄 happiness_regression.py
-│── 📄 README.md
-│── 📁 data/
-│       └── gdp-vs-happiness.csv
-│── 📁 plots/
-│       └── regression_plot.png
-
-🔥 Features
-
-✔ Automatic data cleaning
-✔ Linear regression (because why complicate life?)
-✔ Log-GDP analysis (for people who like curves)
-✔ Scatter plots with regression line
-✔ 60% happiness prediction accuracy — better than your ex
-
-🎛️ Fancy GitHub Buttons
-<p align="center"> <a href="https://github.com/your-username/money-can-buy-happiness/stargazers"> <img src="https://img.shields.io/github/stars/your-username/money-can-buy-happiness?style=for-the-badge&color=yellow" /> </a> <a href="https://github.com/your-username/money-can-buy-happiness/fork"> <img src="https://img.shields.io/github/forks/your-username/money-can-buy-happiness?style=for-the-badge&color=lightblue" /> </a> <a href="https://github.com/your-username/money-can-buy-happiness/issues"> <img src="https://img.shields.io/github/issues/your-username/money-can-buy-happiness?style=for-the-badge&color=red" /> </a> <a href="https://github.com/your-username/money-can-buy-happiness"> <img src="https://img.shields.io/badge/Does%20Money%20Buy%20Happiness%3F-60%25%20Yes-green?style=for-the-badge" /> </a> </p>
-😂 Sarcastic Conclusion
-
-After running the numbers, we have determined:
-
-Yes, money makes people happier.
-
-No, it doesn’t fix everything.
-
-But like… it helps. A lot.
+😌 But let’s be honest — it helps
 
 So if you're sad, consider increasing your GDP per capita.
-(Consult a financial advisor. Or a therapist. Or both.)
+(Or talk to a therapist. Or both.)
 
-⭐ Contribute
-
-Found a bug?
-Found a country whose happiness doesn't match its GDP?
-Found a billionaire who is still sad?
-
-Open an issue or PR.
+🪪 License
+Released under the MIT License — feel free to use, modify, and build upon the project.
